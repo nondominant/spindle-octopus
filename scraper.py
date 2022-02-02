@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 
 
-s = Service('/usr/local/src/chromedriver')
+s = Service('./chromedriver')
 driver = webdriver.Chrome(service=s)
 driver.implicitly_wait(10)
 
